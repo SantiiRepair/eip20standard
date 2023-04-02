@@ -1,5 +1,11 @@
 library eip20standard;
 
+class Customize {
+  
+final String name;
+  
+final String contractAddress;
+  
 final contract = DeployedContract(ContractAbi.fromJson("[
   {
     "constant": true,
@@ -271,4 +277,5 @@ final contract = DeployedContract(ContractAbi.fromJson("[
     "name": "Approval",
     "type": "event"
   },
-]", 'Standard'), <contract-address>);
+]", this.name), this.contractAddress);
+}
