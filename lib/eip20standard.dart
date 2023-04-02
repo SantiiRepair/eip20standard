@@ -1,9 +1,13 @@
 library eip20standard;
 
-class Customize {
-  
+import 'package:web3dart/web3dart.dart';
+
+class CustomContract {
+
+ // Token name
 final String name;
-  
+
+// Contract address
 final String contractAddress;
   
 final contract = DeployedContract(ContractAbi.fromJson("[
