@@ -1,4 +1,6 @@
-module.exports = [
+library eip20_standard_flutter;
+
+final abi = [
   {
     "constant": true,
     "inputs": [],
