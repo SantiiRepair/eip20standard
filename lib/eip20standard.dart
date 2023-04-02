@@ -1,4 +1,4 @@
-library eip20_standard;
+library eip20standard;
 
 final abi = [
   {
