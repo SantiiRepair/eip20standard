@@ -1,4 +1,4 @@
-library eip20_standard_flutter;
+library eip20_standard;
 
 final abi = [
   {
