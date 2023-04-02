@@ -1,6 +1,6 @@
 library eip20standard;
 
-final abi = [
+final contract = DeployedContract(ContractAbi.fromJson("[
   {
     "constant": true,
     "inputs": [],
@@ -271,4 +271,4 @@ final abi = [
     "name": "Approval",
     "type": "event"
   },
-]
+]", 'Standard'), <contract-address>);
