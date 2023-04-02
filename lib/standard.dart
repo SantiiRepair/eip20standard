@@ -1,4 +1,6 @@
-final List<Map<String, Object>> standard = [
+library standard;
+
+final List<Map<String, Object>> contract = [
     {
       "constant": true,
       "inputs": [],
