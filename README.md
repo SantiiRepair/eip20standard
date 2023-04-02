@@ -22,5 +22,5 @@ The library was designed to be imported with a prefix, though you don't
 have to if you don't want to:
 
 ```dart
-import 'package:eip20_standard/eip20_standard.dart' as abi;
+import 'package:eip20standard/eip20standard.dart' as abi;
 ```
