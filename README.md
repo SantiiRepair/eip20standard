@@ -8,4 +8,4 @@ This package uses the EIP20 standard for ethereum contracts.
 
 ## Reference 
 
- - 
+ - [human-standard-token-abi](https://github.com/danfinlay/human-standard-token-abi)
