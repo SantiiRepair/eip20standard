@@ -1,0 +1,1 @@
+# eip20_standard_flutter
