@@ -1,16 +1,6 @@
 library eip20standard;
-
-import 'package:web3dart/web3dart.dart';
-
-class CustomContract {
-
- // Token name
-final String name;
-
-// Contract address
-final String contractAddress;
   
-final contract = DeployedContract(ContractAbi.fromJson("[
+const String standard = "[
   {
     "constant": true,
     "inputs": [],
@@ -281,5 +271,4 @@ final contract = DeployedContract(ContractAbi.fromJson("[
     "name": "Approval",
     "type": "event"
   },
-]", this.name), this.contractAddress);
-}
+]"
