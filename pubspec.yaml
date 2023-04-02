@@ -1,0 +1,8 @@
+name: eip20_standard_flutter
+
+version: 1.0.0-dev
+description: 
+repository: https://github.com/SantiiRepair/eip20_standard_flutter
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
